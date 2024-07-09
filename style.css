@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(25,24,24);
+    color:white;
+}
+h3{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.rock{
+    height: 90px;
+    width: 90px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.imgrock{
+    height: 40px;
+}
+.paper{
+    height: 90px;
+    width: 90px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 3px solid white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.imgpaper{
+    height: 40px;
+}
+.scissors{
+    height: 90px;
+    width: 90px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 3px solid white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.imgscissors{
+    height: 40px;
+}
+.result{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.reset{
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
